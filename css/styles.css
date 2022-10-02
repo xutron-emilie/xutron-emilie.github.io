@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+
+* {
+font-family: 'Montserrat'
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+section.top-page {
+    background: url('../images/background.jpg');
+    background-size: cover;
+    height: 50vh;
+    padding: 25px;
+}
+
+/* landing page */
+
+.landing-page {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.slogan {
+    color: white;
+    display: flex;
+    font-size: 80px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.landing-page img.dev {
+    width: 150px;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 80px;
+}
+
+/* Menu de navigation */
+
+nav.nav {
+   display: flex; 
+   justify-content: space-between;
+   list-style: none;
+   width: 300px;
+   font-size: 20px;
+   margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+p.short {
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 450px;
+    font-weight: 300;
+}
+
+.scroll {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 420px;
+    font-weight: 300;
+}
+
+.scroll img {
+    width: 20px;
+}
+
+/* midl */
+.midl a {
+    text-decoration: none;
+    color: white;
+}
+.midl {
+    display: flex;
+    height: 30vh;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    color: white;
+    background-color: #131520;
+    background-size:cover;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-icon {
+    width: 80px;
+    padding: 50px;
+}
+
+.util {
+    background-color: #131520;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.font-d {
+    font-weight: 600;
+    text-align: center;
+}
+
+.partners a {
+    text-decoration: none;
+    color: white;
+}
+
+h2.partn {
+    margin: 0 auto;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: #131548;
+    text-align: center;
+}
+
+.partners {
+    display: flex;
+    height: 20vh;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color: #131548;
+    color: white;
+    background-size:cover;
+}
+
+.partn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t-icon {
+    width: 80px;
+}
+
+.font-t {
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.about-x {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
