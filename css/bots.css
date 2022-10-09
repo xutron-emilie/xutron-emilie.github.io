@@ -46,7 +46,10 @@ nav.nav-bot li a {
 }
 
 .lay a {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     display: flex;
+    width: min-content;
     justify-content: center;
     align-items: center;
     padding: 60px;
@@ -71,9 +74,10 @@ nav.nav-bot li a {
 
 .lay img:hover {
     background-color: white;
+    transition: background-color 600ms, border 200ms ease-in;
 }
 
 footer {
     text-align: center;
-   color: black;
+    color: black;
 }
