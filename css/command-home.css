@@ -12,6 +12,7 @@ a.bots-button {
     justify-content: center;
     align-items: center;
     min-height: 20vh;
+    text-decoration: none;
 }
 a.bots-button p
 {
@@ -19,7 +20,6 @@ a.bots-button p
     padding: 10px 30px;
     margin: 0 15px;
     color: #21ebff;
-    text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
@@ -30,7 +30,7 @@ a.bots-button p
 }
 a.bots-button p:nth-child(1)
 {
-    filter: hue-rotate(180deg);
+    filter: hue-rotate(360deg);
 }
 a.bots-button p:hover 
 {
