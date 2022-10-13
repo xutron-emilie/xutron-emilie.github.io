@@ -165,6 +165,7 @@ body.on {
 .jumbotron-items .jumbotron-item img {
 	width: 300px;
 	height: auto;
+	cursor: pointer;
 }
 
 .jumbotron-item .jumbotron-t {
